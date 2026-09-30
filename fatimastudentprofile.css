@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.Profile {
+    width: 450px;
+    padding: 25px;
+    margin: 50px auto;
+
+    font-family: 'Arial Narrow Bold', sans-serif;
+    
+    position: relative;
+    text-align: left;
+
+    border-style: solid;
+    border-radius: 12px;
+    background-color:rgb(218, 190, 190);
+}
+
+.Skill_tag {
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    padding: 5px;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 10px;
+}
+
+.Contact_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    padding: 10px 20px;
+}
+
+
+@media (max-width: 600px) {
+    .Profile {
+        width: 100%;
+    }
+}
+
